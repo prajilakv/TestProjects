@@ -152,8 +152,8 @@ try:
         except Exception as e:
             log_file_writing(e,'error')
 
-
-    uploaded = upload_to_aws(location+'\output.csv', 'my-s3-bucket-trial', 'output.csv')
+    bucket_s3 = ''#enter bucket name here
+    uploaded = upload_to_aws(location+'\output.csv', 'bucket_s3', 'output.csv')
     log_file_writing('Upload Completed!','info')
 except Exception as e:
     log_file_writing(e,'error')
