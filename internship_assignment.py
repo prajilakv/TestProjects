@@ -138,8 +138,8 @@ except Exception as e:
 
 try:
     
-    ACCESS_KEY = 'AKIA3LWMAOLVEQPYFDZ6'
-    SECRET_KEY = '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'
+    ACCESS_KEY = ''#enter the aws acces key
+    SECRET_KEY = ''# enter the aws secret key
 
 
     def upload_to_aws(local_file, bucket, s3_file):
